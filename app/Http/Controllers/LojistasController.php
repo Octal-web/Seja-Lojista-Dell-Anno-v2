@@ -39,9 +39,7 @@ class LojistasController extends Controller
         $token = $result['etapa1']->token;
 
         try {
-            $formulario = trim((string) ($data['posicao_formulario'] ?? '')) === 'Rodapé'
-                ? 'rodape'
-                : 'topo';
+            $formulario = $this->isFormularioTopo($data) ? 'topo' : 'rodape';
 
             $this->tracking->marcarFormularioEnviado($request, $formulario, $token);
         } catch (\Throwable $exception) {
@@ -57,6 +55,11 @@ class LojistasController extends Controller
         ], fn($value) => $value !== null && $value !== '');
 
         return to_route('Lojistas.concluido', $parameters);
+    }
+
+    private function isFormularioTopo(array $data): bool
+    {
+        return trim((string) ($data['posicao_formulario'] ?? '')) !== 'Rodapé';
     }
 
     /**
