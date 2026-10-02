@@ -189,7 +189,7 @@ class StoreService
         $etapa1->forceFill([
             'nome' => $data['nome'],
             'email' => $data['email'],
-            'uf' => $cepData['uf'] ?? $data['estado_uf'] ?? null,
+            'uf' => ($cepData['uf'] ?? null) ?: ($data['estado_uf'] ?? null) ?: 'NI',
             'telefone' => $data['telefone'],
             'celular' => null,
             'cpf' => null,
