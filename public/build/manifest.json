@@ -1,0 +1,241 @@
+{
+  "_DefaultLayout-CXqQYxdo.js": {
+    "file": "assets/DefaultLayout-CXqQYxdo.js",
+    "name": "DefaultLayout",
+    "imports": [
+      "resources/js/app.jsx",
+      "_favicon-CYc0iGcq.js"
+    ],
+    "assets": [
+      "assets/main-bg-NGgv0gbM.jpg",
+      "assets/logo-white-CDLIKxa0.svg",
+      "assets/octalweb-logo-CRy3Ke0p.png",
+      "assets/youtube-QNZcygHD.png",
+      "assets/pinterest-3-vO5ia5.png",
+      "assets/facebook-BpdLFkU6.png",
+      "assets/instagram-CDuzvgGz.png"
+    ]
+  },
+  "_PolicyContent-CpFBLaM8.js": {
+    "file": "assets/PolicyContent-CpFBLaM8.js",
+    "name": "PolicyContent",
+    "imports": [
+      "resources/js/app.jsx",
+      "_DefaultLayout-CXqQYxdo.js"
+    ]
+  },
+  "_Text-DtGQPlNj.js": {
+    "file": "assets/Text-DtGQPlNj.js",
+    "name": "Text",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_favicon-CYc0iGcq.js": {
+    "file": "assets/favicon-CYc0iGcq.js",
+    "name": "favicon",
+    "assets": [
+      "assets/logo-BOVMiU3m.svg",
+      "assets/favicon-RQWBe-47.ico"
+    ]
+  },
+  "resources/js/Pages/Erro.jsx": {
+    "file": "assets/Erro-DC9E7Z80.js",
+    "name": "Erro",
+    "src": "resources/js/Pages/Erro.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_favicon-CYc0iGcq.js"
+    ]
+  },
+  "resources/js/Pages/Home.jsx": {
+    "file": "assets/Home-BOtydJNK.js",
+    "name": "Home",
+    "src": "resources/js/Pages/Home.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Text-DtGQPlNj.js",
+      "_DefaultLayout-CXqQYxdo.js",
+      "_favicon-CYc0iGcq.js"
+    ],
+    "css": [
+      "assets/Home-D_HpqeHW.css"
+    ],
+    "assets": [
+      "assets/main-bg-mobile-BLNvjZak.jpg",
+      "assets/banner-home-DhYIg5oK.mp4",
+      "assets/differential-detail-BWChyyNc.jpg",
+      "assets/testimony-1-H_OPcdGn.jpg",
+      "assets/olavo-DM0xMzVt.jpg",
+      "assets/claudio-BYH76gES.jpg",
+      "assets/bruno-DSmPX3-x.jpg",
+      "assets/stats-1-BMNexHN9.jpg",
+      "assets/stats-2-Dq6W7WlV.jpg",
+      "assets/stats-3-9IDT-lNC.jpg",
+      "assets/stats-4-CKZWWRIN.jpg",
+      "assets/unicasa-fabrica-CjjkLjYj.jpg"
+    ]
+  },
+  "resources/js/Pages/LojistasConcluido.jsx": {
+    "file": "assets/LojistasConcluido-BiP-PscN.js",
+    "name": "LojistasConcluido",
+    "src": "resources/js/Pages/LojistasConcluido.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_DefaultLayout-CXqQYxdo.js",
+      "_Text-DtGQPlNj.js",
+      "_favicon-CYc0iGcq.js"
+    ]
+  },
+  "resources/js/Pages/PoliticaCookies.jsx": {
+    "file": "assets/PoliticaCookies-DCyKmop3.js",
+    "name": "PoliticaCookies",
+    "src": "resources/js/Pages/PoliticaCookies.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_DefaultLayout-CXqQYxdo.js",
+      "_PolicyContent-CpFBLaM8.js",
+      "_favicon-CYc0iGcq.js"
+    ]
+  },
+  "resources/js/Pages/PoliticaPrivacidade.jsx": {
+    "file": "assets/PoliticaPrivacidade-C-HJwfOj.js",
+    "name": "PoliticaPrivacidade",
+    "src": "resources/js/Pages/PoliticaPrivacidade.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_DefaultLayout-CXqQYxdo.js",
+      "_PolicyContent-CpFBLaM8.js",
+      "_favicon-CYc0iGcq.js"
+    ]
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-ByCwSGMP.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Erro.jsx",
+      "resources/js/Pages/Home.jsx",
+      "resources/js/Pages/LojistasConcluido.jsx",
+      "resources/js/Pages/PoliticaCookies.jsx",
+      "resources/js/Pages/PoliticaPrivacidade.jsx"
+    ],
+    "css": [
+      "assets/app-BjX6MTw-.css"
+    ]
+  },
+  "resources/js/imgs/content/display/banner-full.jpg": {
+    "file": "assets/banner-full-CIjGxX_P.jpg",
+    "src": "resources/js/imgs/content/display/banner-full.jpg"
+  },
+  "resources/js/imgs/content/display/business-experience.jpg": {
+    "file": "assets/business-experience-CaO7pB1q.jpg",
+    "src": "resources/js/imgs/content/display/business-experience.jpg"
+  },
+  "resources/js/imgs/content/display/business-info.jpg": {
+    "file": "assets/business-info-B6oW_B7h.jpg",
+    "src": "resources/js/imgs/content/display/business-info.jpg"
+  },
+  "resources/js/imgs/content/display/business-sell.jpg": {
+    "file": "assets/business-sell-BLm8R-qc.jpg",
+    "src": "resources/js/imgs/content/display/business-sell.jpg"
+  },
+  "resources/js/imgs/content/display/differential-detail.jpg": {
+    "file": "assets/differential-detail-BWChyyNc.jpg",
+    "src": "resources/js/imgs/content/display/differential-detail.jpg"
+  },
+  "resources/js/imgs/content/display/main-bg-mobile.jpg": {
+    "file": "assets/main-bg-mobile-BLNvjZak.jpg",
+    "src": "resources/js/imgs/content/display/main-bg-mobile.jpg"
+  },
+  "resources/js/imgs/content/display/main-bg.jpg": {
+    "file": "assets/main-bg-NGgv0gbM.jpg",
+    "src": "resources/js/imgs/content/display/main-bg.jpg"
+  },
+  "resources/js/imgs/content/display/model-img.jpg": {
+    "file": "assets/model-img-rfSH6IUO.jpg",
+    "src": "resources/js/imgs/content/display/model-img.jpg"
+  },
+  "resources/js/imgs/content/display/unicasa-fabrica.jpg": {
+    "file": "assets/unicasa-fabrica-CjjkLjYj.jpg",
+    "src": "resources/js/imgs/content/display/unicasa-fabrica.jpg"
+  },
+  "resources/js/imgs/content/stats/stats-1.jpg": {
+    "file": "assets/stats-1-BMNexHN9.jpg",
+    "src": "resources/js/imgs/content/stats/stats-1.jpg"
+  },
+  "resources/js/imgs/content/stats/stats-2.jpg": {
+    "file": "assets/stats-2-Dq6W7WlV.jpg",
+    "src": "resources/js/imgs/content/stats/stats-2.jpg"
+  },
+  "resources/js/imgs/content/stats/stats-3.jpg": {
+    "file": "assets/stats-3-9IDT-lNC.jpg",
+    "src": "resources/js/imgs/content/stats/stats-3.jpg"
+  },
+  "resources/js/imgs/content/stats/stats-4.jpg": {
+    "file": "assets/stats-4-CKZWWRIN.jpg",
+    "src": "resources/js/imgs/content/stats/stats-4.jpg"
+  },
+  "resources/js/imgs/content/stores/store-1.jpg": {
+    "file": "assets/store-1-to-7RhMr.jpg",
+    "src": "resources/js/imgs/content/stores/store-1.jpg"
+  },
+  "resources/js/imgs/content/testimonies/testimony-1.jpg": {
+    "file": "assets/testimony-1-H_OPcdGn.jpg",
+    "src": "resources/js/imgs/content/testimonies/testimony-1.jpg"
+  },
+  "resources/js/imgs/content/testimonies/videos/bruno.jpg": {
+    "file": "assets/bruno-DSmPX3-x.jpg",
+    "src": "resources/js/imgs/content/testimonies/videos/bruno.jpg"
+  },
+  "resources/js/imgs/content/testimonies/videos/claudio.jpg": {
+    "file": "assets/claudio-BYH76gES.jpg",
+    "src": "resources/js/imgs/content/testimonies/videos/claudio.jpg"
+  },
+  "resources/js/imgs/content/testimonies/videos/olavo.jpg": {
+    "file": "assets/olavo-DM0xMzVt.jpg",
+    "src": "resources/js/imgs/content/testimonies/videos/olavo.jpg"
+  },
+  "resources/js/imgs/favicon.ico": {
+    "file": "assets/favicon-RQWBe-47.ico",
+    "src": "resources/js/imgs/favicon.ico"
+  },
+  "resources/js/imgs/site/facebook.png": {
+    "file": "assets/facebook-BpdLFkU6.png",
+    "src": "resources/js/imgs/site/facebook.png"
+  },
+  "resources/js/imgs/site/instagram.png": {
+    "file": "assets/instagram-CDuzvgGz.png",
+    "src": "resources/js/imgs/site/instagram.png"
+  },
+  "resources/js/imgs/site/logo-white.svg": {
+    "file": "assets/logo-white-CDLIKxa0.svg",
+    "src": "resources/js/imgs/site/logo-white.svg"
+  },
+  "resources/js/imgs/site/logo.svg": {
+    "file": "assets/logo-BOVMiU3m.svg",
+    "src": "resources/js/imgs/site/logo.svg"
+  },
+  "resources/js/imgs/site/octalweb-logo.png": {
+    "file": "assets/octalweb-logo-CRy3Ke0p.png",
+    "src": "resources/js/imgs/site/octalweb-logo.png"
+  },
+  "resources/js/imgs/site/pinterest.png": {
+    "file": "assets/pinterest-3-vO5ia5.png",
+    "src": "resources/js/imgs/site/pinterest.png"
+  },
+  "resources/js/imgs/site/youtube.png": {
+    "file": "assets/youtube-QNZcygHD.png",
+    "src": "resources/js/imgs/site/youtube.png"
+  },
+  "resources/js/video/site/banner-home.mp4": {
+    "file": "assets/banner-home-DhYIg5oK.mp4",
+    "src": "resources/js/video/site/banner-home.mp4"
+  }
+}

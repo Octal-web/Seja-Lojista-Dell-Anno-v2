@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .input-style {
+        @apply h-12 w-full border-0 border-b border-b-gray-300 bg-white px-0 font-secondary text-black transition-colors duration-200 placeholder:text-gray-500 placeholder:text-opacity-50 focus:border-b-black focus:outline-none focus:ring-0 focus:shadow-inner;
+    }
+
+    .button-style {
+        @apply relative mx-auto flex min-h-[49px] w-fit items-center justify-center gap-1 bg-primary text-sm font-normal uppercase text-white transition-colors duration-300 hover:bg-primary/80 disabled:cursor-not-allowed disabled:opacity-60 sm:gap-3 xl:text-base;
+    }
+}
+
+@layer base {
+    label {
+        @apply inline-block font-secondary 2xl:mb-2;
+    }
+}
