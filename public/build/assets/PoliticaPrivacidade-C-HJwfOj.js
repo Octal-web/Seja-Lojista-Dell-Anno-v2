@@ -1,1 +1,0 @@
-import{c as e,j as t}from"./app-ByCwSGMP.js";import{D as r}from"./DefaultLayout-CXqQYxdo.js";import{P as a}from"./PolicyContent-CpFBLaM8.js";import"./favicon-CYc0iGcq.js";const m=()=>{const{texto:o}=e().props;return t.jsx(r,{children:t.jsx(a,{content:{titulo:"Política de Privacidade",texto:o}})})};export{m as default};

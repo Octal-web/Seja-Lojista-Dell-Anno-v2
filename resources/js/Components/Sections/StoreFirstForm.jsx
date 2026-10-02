@@ -186,8 +186,7 @@ export const StoreFirstForm = () => {
         event.preventDefault();
 
         post(route("Lojistas.enviar"), {
-            preserveScroll: (page) =>
-                Object.keys(page.props.errors ?? {}).length > 0,
+            preserveScroll: (page) => Object.keys(page.props.errors ?? {}).length > 0,
 
             onSuccess: () => {
                 reset(

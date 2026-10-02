@@ -1,0 +1,1 @@
+import{c as e,j as t}from"./app-Bj057HkV.js";import{D as s}from"./DefaultLayout--hYUHzKU.js";import{P as r}from"./PolicyContent-D9EV3ve9.js";import"./favicon-CYc0iGcq.js";const p=()=>{const{texto:o}=e().props;return t.jsx(s,{children:t.jsx(r,{content:{titulo:"Política de Cookies",texto:o}})})};export{p as default};

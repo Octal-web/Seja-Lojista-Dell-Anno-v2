@@ -1,4 +1,4 @@
-import Select from "react-select";
+import Select, { components } from "react-select";
 
 import { FormField } from "./FormField";
 
@@ -62,6 +62,15 @@ const getSelectClassNames = (compact, boxed) => ({
         "px-4 py-3 font-secondary text-sm text-gray-500",
 });
 
+// Lenis só é bloqueado dentro da lista de opções, para o scroll da página
+// continuar funcionando normalmente sobre o campo do select
+const MenuList = (props) => (
+    <components.MenuList
+        {...props}
+        innerProps={{ ...props.innerProps, "data-lenis-prevent": true }}
+    />
+);
+
 export const FormSelect = ({
     id,
     name = id,
@@ -86,28 +95,27 @@ export const FormSelect = ({
             label={label}
             errors={errors}
         >
-            <div data-lenis-prevent>
-                <Select
-                    inputId={id}
-                    instanceId={id}
-                    name={name}
-                    options={options}
-                    value={selectedOption}
-                    onChange={(option) => {
-                        onChange(name, option);
-                    }}
-                    placeholder={placeholder}
-                    classNames={getSelectClassNames(compact, boxed)}
-                    unstyled
-                    isSearchable={searchable}
-                    isDisabled={disabled}
-                    aria-invalid={Boolean(errors?.[name])}
-                    aria-describedby={
-                        errors?.[name] ? `${id}-error` : undefined
-                    }
-                    noOptionsMessage={() => "Nenhuma opção encontrada"}
-                />
-            </div>
+            <Select
+                inputId={id}
+                instanceId={id}
+                name={name}
+                options={options}
+                value={selectedOption}
+                onChange={(option) => {
+                    onChange(name, option);
+                }}
+                placeholder={placeholder}
+                classNames={getSelectClassNames(compact, boxed)}
+                components={{ MenuList }}
+                unstyled
+                isSearchable={searchable}
+                isDisabled={disabled}
+                aria-invalid={Boolean(errors?.[name])}
+                aria-describedby={
+                    errors?.[name] ? `${id}-error` : undefined
+                }
+                noOptionsMessage={() => "Nenhuma opção encontrada"}
+            />
         </FormField>
     );
 };

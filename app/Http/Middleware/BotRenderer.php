@@ -8,7 +8,7 @@
 //
 // Como funciona:
 //   1. Verifica o User-Agent da requisição
-//   2. Se for crawler -> retorna a view blade sejalojista26'-bot.blade.php
+//   2. Se for crawler -> retorna a view blade sejalojista-bot.blade.php
 //      com o HTML completo da página já renderizado
 //   3. Se for usuário normal -> deixa passar para o Inertia normalmente
 
@@ -76,8 +76,14 @@ class BotRenderer
             return $next($request);
         }
 
+        // Requisições XHR do Inertia (ex.: redirect após envio de formulário)
+        // sempre seguem o fluxo normal, mesmo que o User-Agent pareça bot
+        if ($request->header('X-Inertia')) {
+            return $next($request);
+        }
+
         // É crawler na página certa -> retorna HTML estático
-        return response()->view('sejalojista26-bot', [
+        return response()->view('sejalojista-bot', [
             'title'       => 'Seja Lojista | Dell Anno Brasil',
             'description' => 'Abra sua loja própria autorizada Dell Anno. Conheça o modelo de negócio e o suporte da marca e converse com a equipe de expansão sobre a disponibilidade da sua região.',
         ]);

@@ -1,6 +1,6 @@
 {
-  "_DefaultLayout-CXqQYxdo.js": {
-    "file": "assets/DefaultLayout-CXqQYxdo.js",
+  "_DefaultLayout--hYUHzKU.js": {
+    "file": "assets/DefaultLayout--hYUHzKU.js",
     "name": "DefaultLayout",
     "imports": [
       "resources/js/app.jsx",
@@ -16,16 +16,16 @@
       "assets/instagram-CDuzvgGz.png"
     ]
   },
-  "_PolicyContent-CpFBLaM8.js": {
-    "file": "assets/PolicyContent-CpFBLaM8.js",
+  "_PolicyContent-D9EV3ve9.js": {
+    "file": "assets/PolicyContent-D9EV3ve9.js",
     "name": "PolicyContent",
     "imports": [
       "resources/js/app.jsx",
-      "_DefaultLayout-CXqQYxdo.js"
+      "_DefaultLayout--hYUHzKU.js"
     ]
   },
-  "_Text-DtGQPlNj.js": {
-    "file": "assets/Text-DtGQPlNj.js",
+  "_Text-CwFspdRo.js": {
+    "file": "assets/Text-CwFspdRo.js",
     "name": "Text",
     "imports": [
       "resources/js/app.jsx"
@@ -40,7 +40,7 @@
     ]
   },
   "resources/js/Pages/Erro.jsx": {
-    "file": "assets/Erro-DC9E7Z80.js",
+    "file": "assets/Erro-C55LgjYB.js",
     "name": "Erro",
     "src": "resources/js/Pages/Erro.jsx",
     "isDynamicEntry": true,
@@ -50,14 +50,14 @@
     ]
   },
   "resources/js/Pages/Home.jsx": {
-    "file": "assets/Home-BOtydJNK.js",
+    "file": "assets/Home-1Yck9cSM.js",
     "name": "Home",
     "src": "resources/js/Pages/Home.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_Text-DtGQPlNj.js",
-      "_DefaultLayout-CXqQYxdo.js",
+      "_Text-CwFspdRo.js",
+      "_DefaultLayout--hYUHzKU.js",
       "_favicon-CYc0iGcq.js"
     ],
     "css": [
@@ -79,43 +79,43 @@
     ]
   },
   "resources/js/Pages/LojistasConcluido.jsx": {
-    "file": "assets/LojistasConcluido-BiP-PscN.js",
+    "file": "assets/LojistasConcluido-BU-LPodi.js",
     "name": "LojistasConcluido",
     "src": "resources/js/Pages/LojistasConcluido.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_DefaultLayout-CXqQYxdo.js",
-      "_Text-DtGQPlNj.js",
+      "_DefaultLayout--hYUHzKU.js",
+      "_Text-CwFspdRo.js",
       "_favicon-CYc0iGcq.js"
     ]
   },
   "resources/js/Pages/PoliticaCookies.jsx": {
-    "file": "assets/PoliticaCookies-DCyKmop3.js",
+    "file": "assets/PoliticaCookies-CQahVurb.js",
     "name": "PoliticaCookies",
     "src": "resources/js/Pages/PoliticaCookies.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_DefaultLayout-CXqQYxdo.js",
-      "_PolicyContent-CpFBLaM8.js",
+      "_DefaultLayout--hYUHzKU.js",
+      "_PolicyContent-D9EV3ve9.js",
       "_favicon-CYc0iGcq.js"
     ]
   },
   "resources/js/Pages/PoliticaPrivacidade.jsx": {
-    "file": "assets/PoliticaPrivacidade-C-HJwfOj.js",
+    "file": "assets/PoliticaPrivacidade-BnH8-UOB.js",
     "name": "PoliticaPrivacidade",
     "src": "resources/js/Pages/PoliticaPrivacidade.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_DefaultLayout-CXqQYxdo.js",
-      "_PolicyContent-CpFBLaM8.js",
+      "_DefaultLayout--hYUHzKU.js",
+      "_PolicyContent-D9EV3ve9.js",
       "_favicon-CYc0iGcq.js"
     ]
   },
   "resources/js/app.jsx": {
-    "file": "assets/app-ByCwSGMP.js",
+    "file": "assets/app-Bj057HkV.js",
     "name": "app",
     "src": "resources/js/app.jsx",
     "isEntry": true,
