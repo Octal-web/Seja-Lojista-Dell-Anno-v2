@@ -189,6 +189,15 @@ export const StoreFirstForm = () => {
             preserveScroll: (page) => Object.keys(page.props.errors ?? {}).length > 0,
 
             onSuccess: () => {
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                    event: "form_sucesso",
+                    form_id: "form_DellAnno_Sejalojista26'_topo",
+                    posicao_formulario: data.posicao_formulario,
+                    email: data.email,
+                    telefone: data.telefone,
+                });
+
                 reset(
                     "nome",
                     "telefone",
