@@ -20,7 +20,7 @@ class StoreService
     private const PROJETO = 'sejalojista26';
     private const COD_MARCA_ETAPA_1 = 'expansao';
     private const COD_MARCA_ETAPA_2 = 'dellanno';
-    private const CANAL_ATENDIMENTO_ID = 40;
+    private const CANAL_ATENDIMENTO_ID = 39;
 
     private const CAPITAIS_DISPONIVEIS = [
         1 => 'ENTRE R$ 900.000,00 A 1.500.000,00',
