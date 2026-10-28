@@ -192,7 +192,7 @@ export const StoreFirstForm = () => {
                 window.dataLayer = window.dataLayer || [];
                 window.dataLayer.push({
                     event: "form_sucesso",
-                    form_id: "form_DellAnno_Sejalojista26'_topo",
+                    form_id: "form_DellAnno_Sejalojista26_topo",
                     posicao_formulario: data.posicao_formulario,
                     email: data.email,
                     telefone: data.telefone,
@@ -268,7 +268,7 @@ export const StoreFirstForm = () => {
                             aria-labelledby="lojista-topo-lojista-form-title"
                             aria-describedby="lojista-topo-lojista-form-description"
                             aria-busy={processing}
-                            id="form_DellAnno_Sejalojista26'_topo"
+                            id="form_DellAnno_Sejalojista26_topo"
                         >
                             <div className="flex flex-col gap-4">
                                 <div className="flex flex-col gap-4">
