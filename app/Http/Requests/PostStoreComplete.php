@@ -46,15 +46,15 @@ class PostStoreComplete extends FormRequest
         ];
     }
 
-    /**
-     * O CEP é obrigatório no banco; o formulário do topo não o coleta.
-     */
-    protected function prepareForValidation(): void
-    {
-        if ($this->isFormularioTopo() && blank($this->input('cep'))) {
-            $this->merge(['cep' => StoreService::CEP_PADRAO]);
-        }
-    }
+    // /**
+    //  * O CEP é obrigatório no banco; o formulário do topo não o coleta.
+    //  */
+    // protected function prepareForValidation(): void
+    // {
+    //     if ($this->isFormularioTopo() && blank($this->input('cep'))) {
+    //         $this->merge(['cep' => StoreService::CEP_PADRAO]);
+    //     }
+    // }
 
     protected function isFormularioTopo(): bool
     {
