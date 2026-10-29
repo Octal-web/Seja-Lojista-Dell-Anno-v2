@@ -47,6 +47,7 @@ export const StoreFirstForm = () => {
         telefone: "",
         telefone_confirmation: "",
         email: "",
+        cep: "",
         politica: false,
         expectativa_investimento: "",
 
@@ -91,6 +92,7 @@ export const StoreFirstForm = () => {
         "nome",
         "telefone",
         "email",
+        "cep",
         "expectativa_investimento",
         "politica",
     ]);
@@ -203,6 +205,7 @@ export const StoreFirstForm = () => {
                     "telefone",
                     "telefone_confirmation",
                     "email",
+                    "cep",
                     "politica",
                     "expectativa_investimento",
                 );
@@ -271,8 +274,8 @@ export const StoreFirstForm = () => {
                             id="form_DellAnno_Sejalojista26_topo"
                         >
                             <div className="flex flex-col gap-4">
-                                <div className="flex flex-col gap-4">
-                                    <div className="w-full">
+                                <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
+                                    <div className="w-full sm:col-span-2">
                                         <label htmlFor="lojista-topo-nome">Nome*</label>
 
                                         <input
@@ -323,6 +326,40 @@ export const StoreFirstForm = () => {
                                             <ErrorMessage field="email" />
                                         </div>
                                     </div>
+                                    <div className="w-full">
+                                            <label htmlFor="lojista-topo-cep">
+                                                Seu CEP*
+                                            </label>
+
+                                            <InputMask
+                                                id="lojista-topo-cep"
+                                                type="text"
+                                                name="cep"
+                                                mask="_____-___"
+                                                replacement={{
+                                                    _: /\d/,
+                                                }}
+                                                value={data.cep}
+                                                onChange={handleChange}
+                                                placeholder="Seu CEP"
+                                                inputMode="numeric"
+                                                autoComplete="postal-code"
+                                                aria-required="true"
+                                                aria-invalid={Boolean(
+                                                    errors.cep,
+                                                )}
+                                                aria-describedby={
+                                                    errors.cep
+                                                        ? "lojista-topo-cep-error"
+                                                        : undefined
+                                                }
+                                                className={inputClassName}
+                                            />
+
+                                            <div id="lojista-topo-cep-error">
+                                                <ErrorMessage field="cep" />
+                                            </div>
+                                        </div>
                                 </div>
 
                                 <div className="flex flex-col gap-4">
